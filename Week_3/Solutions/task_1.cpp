@@ -26,8 +26,11 @@ int main()
     } else if (month == 4 || month == 6 || month == 9 || month == 11) {
         days = 30;
     } else {
-        if (isLeap) {days = 29;}
-        else {days = 28;}
+        if (isLeap) {
+	    days = 29;
+	} else {
+	    days = 28;
+	}
     }
     */
 
