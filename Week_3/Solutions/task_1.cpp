@@ -47,6 +47,9 @@ int main()
 	    } else {
 		days = 28;
 	    }
+	    break;
+    	default:
+	    cout << "Wrong value for month" << endl;
     }
 
     cout << "Month " << month << " has " << days << " days.\n";
