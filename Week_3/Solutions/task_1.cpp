@@ -8,7 +8,7 @@ using namespace std;
 
 int main()
 {
-    int year, month, days;
+    int year, month, days = 0;
     cout << "Въведете месец (1-12)\n";
     cin >> month;
     cout << "Въведете година\n";
@@ -52,7 +52,9 @@ int main()
 	    cout << "Wrong value for month" << endl;
     }
 
-    cout << "Month " << month << " has " << days << " days.\n";
+    if (days > 0) {
+        cout << "Month " << month << " has " << days << " days.\n";
+    }
 
     return 0;
 }
