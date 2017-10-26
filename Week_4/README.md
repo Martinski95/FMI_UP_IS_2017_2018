@@ -2,5 +2,5 @@
 
 * Цикли - [for loop](http://en.cppreference.com/w/cpp/language/for)
 * Цикли - [do-while loop](http://en.cppreference.com/w/cpp/language/do)
-* Вложени цикли. Прекратяване на вложени цикли.
+* [Вложени цикли](https://www.tutorialspoint.com/cplusplus/cpp_nested_loops.htm). Прекратяване на вложени цикли - [break](http://en.cppreference.com/w/cpp/language/break).
 * Област на променливите
