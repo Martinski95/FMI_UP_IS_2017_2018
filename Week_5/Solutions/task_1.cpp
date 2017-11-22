@@ -8,8 +8,7 @@
 #include <cmath>
 using namespace std;
 
-int main()
-{
+int main() {
     double x, y;
     double rectLeftX = 1, rectRightX = 2, rectDownY = 0, rectUpY = 4;
     double circleCenterX = 2, circleCenterY = 2, circleRadius = 2;

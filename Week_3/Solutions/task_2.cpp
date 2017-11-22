@@ -6,8 +6,7 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
+int main() {
     int endNumber;
     cout << "Въведете число (> 1)\n";
     cin >> endNumber;

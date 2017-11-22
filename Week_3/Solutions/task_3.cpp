@@ -7,8 +7,7 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
+int main() {
     int endNumber, sum = 0;
     cout << "Въведете число (> 1)\n";
     cin >> endNumber;

@@ -6,8 +6,7 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
+int main() {
     int year, month, days = 0;
     cout << "Въведете месец (1-12)\n";
     cin >> month;
