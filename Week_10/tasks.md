@@ -19,15 +19,9 @@
 
 func("Hello darkness, my old friend.")
 
-Result:
-
-hello
-
-darkness
-
-my
-
-old
-
-friend
-
+Result:  
+hello  
+darkness  
+my  
+old  
+friend  
