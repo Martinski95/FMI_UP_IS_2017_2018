@@ -13,9 +13,9 @@ int fib(int n) {
 int main() {
     int number;
 	
-	cout << "Enter a positive integer: ";
-	cin >> number;
-	cout << number << " fibonacci = " << fib(number) << endl;
+    cout << "Enter a positive integer: ";
+    cin >> number;
+    cout << number << " fibonacci = " << fib(number) << endl;
     
     system("PAUSE");
     return 0;
