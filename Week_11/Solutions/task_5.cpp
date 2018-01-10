@@ -2,24 +2,24 @@
 using namespace std;
 
 void returnDigits(int number){
-	if (number < 10){
-		cout << number;
-	} else {
-		cout << number % 10;
-		returnDigits(number / 10);
-	}
+    if (number < 10){
+        cout << number;
+    } else {
+        cout << number % 10;
+	returnDigits(number / 10);
+    }
     
-	cout << number % 10;
+    cout << number % 10;
 }
 
 
 int main() {
-	int number;
+    int number;
 	
-	cout << "Enter a number: ";
-	cin >> number;
+    cout << "Enter a number: ";
+    cin >> number;
     returnDigits(number);
     
-	system("PAUSE");
-	return 0;
+    system("PAUSE");
+    return 0;
 }
