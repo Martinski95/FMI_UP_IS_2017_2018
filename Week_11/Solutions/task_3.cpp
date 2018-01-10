@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int addNumbers(int n)
-{
+int addNumbers(int n) {
     if(n != 0)
         return n + addNumbers(n-1);
     else
