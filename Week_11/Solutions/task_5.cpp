@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void returnDigits(int number){
+void returnDigits(int number) {
     if (number < 10){
         cout << number;
     } else {
