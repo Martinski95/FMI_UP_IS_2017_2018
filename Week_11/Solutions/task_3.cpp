@@ -11,11 +11,11 @@ int addNumbers(int n)
 
 
 int main() {
-	int number;
+    int number;
 	
-	cout << "Enter a positive integer: ";
-	cin >> number;
-	cout << " sum from 1 to " << number << " = " << addNumbers(number) << endl;
+    cout << "Enter a positive integer: ";
+    cin >> number;
+    cout << " sum from 1 to " << number << " = " << addNumbers(number) << endl;
     
     system("PAUSE");
     return 0;
