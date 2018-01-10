@@ -14,10 +14,10 @@ bool isIncreasing(double array[], int count)
 
 
 int main() {
-	double arr[] = {1.5, 2.0, 3.14, 5};
+    double arr[] = {1.5, 2.0, 3.14, 5};
     
     cout << boolalpha << "Is increasing = " << isIncreasing(arr, 4) << endl;
 
-	system("PAUSE");
-	return 0;
+    system("PAUSE");
+    return 0;
 }
