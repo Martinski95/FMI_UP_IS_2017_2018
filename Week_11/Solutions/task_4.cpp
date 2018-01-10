@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
 
-bool isIncreasing(double array[], int count)
-{
+bool isIncreasing(double array[], int count) {
     if (count <= 1) 
         return true;
     
